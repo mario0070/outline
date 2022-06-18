@@ -60,9 +60,24 @@ section{
 @media screen and (max-width:500px){
 
     section{
-        width: 100%;
+        
         flex-direction: column;
         gap: 20px;
+    }
+
+    .inputbox span{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        pointer-events: none;
+        color: gray;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+
+    input{
+        width:50% ;
     }
   
 }
